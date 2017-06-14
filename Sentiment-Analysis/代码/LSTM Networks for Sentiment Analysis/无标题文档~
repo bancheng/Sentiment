@@ -1,0 +1,6 @@
+
+
+    import cPickle as pickle  
+    f = open('imb.pkl')  
+    info = pickle.load(f)  
+    print info   #show file 
